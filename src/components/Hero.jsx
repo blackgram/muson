@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 const Hero = () => {
   return (
@@ -22,11 +23,7 @@ const Hero = () => {
             artiste and be inspired{" "}
           </div>
           <div className="flex items-center justify-center md:justify-start w-full md:my-[10px] my-[15px] lg:my-[35px] ">
-            <a href="#" className="mr-[20px]">
-              <div className="w-[80px] h-[30px] lg:w-[120px] lg:h-[48px] xl:w-[137px] xl:h-[59px] text-white md:text-[16px] lg:text-[20px] font-bold flex items-center justify-center bg-gradient-to-r from-[#FF2525] from-70% to-[#ff252500] to-100% ">
-                Login
-              </div>
-            </a>
+           <Button text='Join for free' />
             <div className="flex items-center text-[12px] lg:text-[18px] xl:text-[20px] w-full">
               <a href="#">
                 <img src="/assets/play-circle.svg" className="max-w-[38px] lg:max-w-[100px]"/>{" "}

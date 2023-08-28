@@ -17,7 +17,7 @@ const Services = () => {
           >
             <img src={item.image} />
             <div className="mx-[20px] ">
-              <div className="font-bold text-[18px] xl:text-[20px] leading-[24px]">
+              <div className="font-bold text-[18px] xl:text-[18px] leading-[24px]">
                 {item.title}
               </div>
               <div className="text-[16px] xl:text-[18px] leading-[21px] ">

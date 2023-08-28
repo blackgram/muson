@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button'
 
 const Navbar = () => {
   return (
@@ -14,7 +15,7 @@ const Navbar = () => {
       <div className='flex justify-center items-center xl:max-w-[295px]'>
         <a href='#'className='md:mr-[5px] md:max-w-[28px] lg:mr-[10px] xl:mr-[14px]' ><img src='/assets/notification.svg' alt='notification icon' /> </a>
         <a href='#' className='md:mx-[5px] md:max-w-[28px] lg:mr-[10px] xl:mx-[14px]'><img src='/assets/profile.svg' alt='profile icon' /> </a>
-        <a href='#' className='md:ml-[5px] lg:mr-[10px] xl:ml-[14px]'><div className='md:w-[80px] md:h-[30px] lg:w-[100px] lg:h-[40px] xl:w-[137px] xl:h-[59px] text-white xl:text-[20px] font-bold flex items-center justify-center bg-gradient-to-r from-[#FF2525] from-70% to-[#ff252500] to-100% '>Login</div></a>
+        <Button text='Login' />
       </div>
     </div>
   )

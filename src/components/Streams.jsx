@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import { streamsData } from "./constants";
+import Button from "./Button";
 
 const Streams = () => {
 
@@ -13,11 +14,7 @@ const Streams = () => {
           <div>Popular</div>
           <div className="ml-[10px] text-[#FD5454] ">Streams</div>
         </div>
-        <a href="#" className="md:mr-[20px] md:relative right-[0px]">
-          <div className="w-[80px] h-[30px] lg:w-[120px] lg:h-[48px] xl:w-[137px] xl:h-[59px] text-white md:text-[16px] lg:text-[20px] font-bold flex items-center justify-center bg-gradient-to-r from-[#FF2525] from-70% to-[#ff252500] to-100% ">
-            Login
-          </div>
-        </a>
+        <Button text='Start' />
       </div>
       <div className="flex flex-wrap justify-center">
         {streamsData.map((item) => (
